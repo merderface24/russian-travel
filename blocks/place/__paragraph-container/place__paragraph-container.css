@@ -1,0 +1,24 @@
+.place__paragraph-container {
+    max-width: 484px;
+}
+
+@media (max-width: 1024px) {
+    .place__paragraph-container {
+        max-width: 456px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .place__paragraph-container {
+        max-width: 352px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .place__paragraph-container {
+        max-width: 425px;
+        width: calc(100% - 32px);
+    }
+}

@@ -1,0 +1,23 @@
+.cover__background {
+    width: calc(100% - 96px);
+    margin: 0 48px;
+    transition: 0.4s ease-out;
+}
+
+.cover__background:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+    .cover__background {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__background {
+        width: 100%;
+        margin: 0;
+    }
+}
