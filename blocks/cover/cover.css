@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background-image: url("./images/cover-trains.jpg");
+    background-image: url("../cover/cover-trains.jpg");
     margin: 0 48px;
     background-size: 100% auto;
     background-position: center center;
