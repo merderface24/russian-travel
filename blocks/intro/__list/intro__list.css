@@ -1,6 +1,5 @@
 .intro__list {
-    width: 690px;
-    height: 90px;
+    max-width: 690px;
     margin: 33px 0 0 148px;
     font-style: normal;
     font-weight: 700;
@@ -10,7 +9,7 @@
 
 @media (max-width: 1024px) {
     .intro__list {
-        margin: 33px 0 0 48px;
+        margin-left: 48px;
     }
 }
 

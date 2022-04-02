@@ -1,23 +1,23 @@
 .header__logo {
-    position: absolute;
-    width: 176px;
-    height: 52px;
-    top: 28px;
-    left: 48px;
+    max-width: 176px;
+    width: 100%;
+    margin-left: 48px;
+}
+
+.header__logo:hover {
+    opacity: 0.8;
 }
 
 @media (max-width: 768px) {
     .header__logo {
-        top: 28px;
-        left: 28px;
+        margin-left: 24px;
     }
 }
 
 @media (max-width: 425px) {
     .header__logo {
-        width: 142px;
-        height: 42px;
-        top: 16px;
-        left: 16px;
+        max-width: 142px;
+        width: 100%;
+        margin-left: 16px;
     }
 }

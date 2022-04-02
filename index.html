@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./fonts/inter.css">
     <title>Путешествия по России</title>
 </head>
 
 <body class="page">
     <header class="header">
-        <img class="header__logo" src="./images/header-logo.svg" alt="Логотоип">
-        <a class="header__lang-link header__lang-link_ru" href="#">Ru</a>
-        <a class="header__lang-link header__lang-link_en" href="#">En</a>
+        <a href="#"><img class="header__logo" src="./images/header-logo.svg" alt="Логотоип"></a>
+        <div class="header__lang-container">
+            <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+            <a class="header__lang-link" href="#">En</a>
+        </div>
     </header>
     <main class="main">
         <section class="lead">
@@ -33,14 +34,14 @@
                 в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
                 интересные места, достойные вашего отпуска.</p>
             <ul class="intro__list markers">
-                <li><strong>Часовых поясов</strong> 11</li>
-                <li><strong>Объектов природного наследия ЮНЕСКО</strong> 12</li>
-                <li><strong>Объектов культурного наследия ЮНЕСКО</strong> 16</li>
-                <li><strong>Природных заповедников</strong> 105</li>
-                <li><strong>Аэропортов</strong> 241</li>
+                <li>Часовых поясов 11</li>
+                <li>Объектов природного наследия ЮНЕСКО 12</li>
+                <li>Объектов культурного наследия ЮНЕСКО 16</li>
+                <li>Природных заповедников 105</li>
+                <li>Аэропортов 241</li>
             </ul>
         </section>
-        <div class="photo-grid">
+        <section class="photo-grid">
             <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Поезд">
             <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Облака">
             <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Волк">
@@ -53,9 +54,9 @@
             <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка">
             <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Берег байкала">
             <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Горы в тумане">
-        </div>
+        </section>
         <section class="places">
-            <div class="place">
+            <article class="place">
                 <h3 class="place__title">Куршская коса</h3>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
@@ -71,7 +72,7 @@
                         наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в
                         спокойствие природы и запах стального, прохладного моря.</p>
                 </div>
-            </div>
+            </article>
             <div class="place">
                 <h3 class="place__title">Кольский</h3>
                 <div class="place__website">
@@ -147,26 +148,27 @@
             </div>
         </section>
         <section class="cover">
-            <div class="cover__content">
-                <h3 class="cover__title">До Байкала «на собаках»</h3>
-                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+            <a class="cover__content" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+                <h3 class="cover__title">До Байкала «на&nbsp;собаках»</h3>
+                <p class="cover__subtitle">По мотивам учебной темы о Транссибе&nbsp;— путешествие от столицы&nbsp;до
+                    Байкала на
                     электричках.</p>
-            </div>
-            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"><img class="cover__background"
-                    src="./images/cover-trains.jpg" alt="Пейзаж с поездами"></a>
+            </a>
         </section>
     </main>
     <footer class="footer">
-        <div class="footer__link-container">
+        <nav class="footer__link-container">
             <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
             <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
             <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
             <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
             <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-        </div>
-        <div class="footer__copyright">&copy; 2022. Никита Щур</div>
+        </nav>
+        <p class="footer__copyright">&copy; 2022. Никита Щур</p>
     </footer>
 
 </body>
 
 </html>
+
+<!--href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"

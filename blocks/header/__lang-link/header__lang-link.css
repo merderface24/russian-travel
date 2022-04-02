@@ -1,8 +1,8 @@
 .header__lang-link {
-    position: absolute;
-    width: 29px;
-    height: 28px;
-    top: 46px;
+    max-width: 29px;
+    width: 100%;
+    text-decoration: none;
+    margin-right: 48px;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
@@ -11,12 +11,18 @@
     text-align: right;
 }
 
+@media (max-width: 768px) {
+    .header__lang-link {
+        margin-right: 24px;
+    }
+}
+
 @media (max-width: 425px) {
     .header__lang-link {
-        width: 22px;
-        height: 20px;
-        top: 30px;
+        max-width: 22px;
+        width: 100%;
         font-size: 18px;
         line-height: 20px;
+        margin-right: 16px;
     }
 }

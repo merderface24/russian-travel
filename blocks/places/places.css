@@ -4,7 +4,8 @@
 
 @media (max-width: 1024px) {
     .places {
-        margin: 92px 48px;
+        margin-left: 48px;
+        margin-right: 48px;
     }
 }
 

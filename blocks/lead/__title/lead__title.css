@@ -1,6 +1,6 @@
 .lead__title {
     width: calc(100% - 560px);
-    margin: 136px 280px 0;
+    margin: 56px 280px 0;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
@@ -10,21 +10,21 @@
 @media (max-width: 1024px) {
     .lead__title {
         width: calc(100% - 304px);
-        margin: 128px 152px 0;
+        margin: 48px 152px 0;
     }
 }
 
 @media (max-width: 830px) {
     .lead__title {
         width: calc(100% - 140px);
-        margin: 124px 70px 0;
+        margin: 48px 70px 0;
     }
 }
 
 @media (max-width: 768px) {
     .lead__title {
         width: calc(100% - 48px);
-        margin: 124px 24px 0;
+        margin: 48px 24px 0;
     }
 }
 
@@ -37,7 +37,7 @@
 
 @media (max-width: 600px) {
     .lead__title {
-        margin: 112px 20px 0;
+        margin: 48px 20px 0;
         width: calc(100% - 40px);
         font-size: 50px;
         line-height: 44px;
@@ -46,7 +46,7 @@
 
 @media (max-width: 425px) {
     .lead__title {
-        margin: 106px 16px 0;
+        margin: 48px 16px 0;
         width: calc(100% - 32px);
         font-size: 40px;
         line-height: 44px;

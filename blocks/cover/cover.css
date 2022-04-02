@@ -3,4 +3,33 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    background-image: url(/images/cover-trains.jpg);
+    margin: 0 48px;
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 245px 0;
+}
+
+.cover::before {
+    padding-top: calc(100% / 1.6);
+}
+
+@media (max-width: 1024px) {
+    .cover {
+        margin: 0;
+        padding: 195px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover {
+        padding: 115px 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .cover {
+        padding: 33px 0;
+    }
 }
