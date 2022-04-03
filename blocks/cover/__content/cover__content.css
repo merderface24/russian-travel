@@ -22,14 +22,13 @@
     transition: 0.4s ease-out;
 }
 
-.cover__content::before:hover {
+.cover__content:hover::before {
     opacity: 0.8;
 }
 
 @media (max-width: 600px) {
     .cover__content {
         row-gap: 22px;
-        max-width: 424px;
     }
 }
 
