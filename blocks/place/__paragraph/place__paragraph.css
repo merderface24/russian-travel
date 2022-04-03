@@ -16,8 +16,15 @@
     }
 }
 
+@media (max-width: 432px) {
+    .place__paragraph {
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 425px) {
     .place__paragraph {
         margin: 0 16px 25px;
+        font-size: 16px;
     }
 }
